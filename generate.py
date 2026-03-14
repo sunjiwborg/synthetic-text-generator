@@ -87,7 +87,7 @@ def generate_with_text2image(text, font, output_base, font_size=FONT_SIZE):
         f"--text={tmp_txt}",
         f"--outputbase={output_base}",
         f"--ptsize={font_size}",
-        "--margin=10",
+        "--margin=5",
         "--strip_unrenderable_words",
     ]
 
